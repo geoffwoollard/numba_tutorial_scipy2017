@@ -12,7 +12,9 @@ except AssertionError:
     onpy2 = True
 
 def tuple_version(version):
-    return tuple(int(x) for x in version.strip('<>+-=.').split('.'))
+    clean_version = version.strip('<>+-=.').replace('+','.').split('.')[:3]
+    print ('clean_version',clean_version)
+    return tuple(int(x) for x in clean_version)
 
 def check_versions():
     version_trouble=False
