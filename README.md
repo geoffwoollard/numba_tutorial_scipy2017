@@ -1,6 +1,6 @@
 # Numba: Tell those C++ bullies to get lost
 
-This is the repository for the Scipy 2017 tutorial. The tutorial will be
+This is the repository for the [Scipy 2017 tutorial](https://youtu.be/1AwG0T4gaO0). The tutorial will be
 presented as a set of Jupyter notebooks with exercises sprinkled throughout.
 
 1. [Installation](#installation-instructions)
